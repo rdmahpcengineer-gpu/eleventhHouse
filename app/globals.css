@@ -5,6 +5,9 @@
   --foreground: #171717;
   --primary: #ff6b35;
   --secondary: #f7931e;
+  --font-geist-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-geist-mono: "SFMono-Regular", Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
 }
 
 @theme inline {
