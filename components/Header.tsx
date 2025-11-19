@@ -21,7 +21,7 @@ export default function Header() {
               href="#investor-relations"
               className="text-gray-300 hover:text-white transition-colors font-medium px-6 py-2 border-2 border-orange-500 rounded-full hover:bg-orange-500"
             >
-              Investor Relations
+              Startup IR
             </Link>
           </div>
 
@@ -65,7 +65,7 @@ export default function Header() {
                 className="text-gray-300 hover:text-white transition-colors font-medium text-center px-6 py-2 border-2 border-orange-500 rounded-full hover:bg-orange-500"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Investor Relations
+                Startup IR
               </Link>
             </div>
           </div>
