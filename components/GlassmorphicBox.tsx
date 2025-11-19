@@ -27,6 +27,22 @@ export default function GlassmorphicBox() {
           AI cloud platform combining HPC performance, digital-twin modeling, autonomous voice AI, and telecom LLM routing—designed to give{" "}
           <span className="text-orange-500 font-medium">you the advantage every business wants but few ever achieve.</span>
         </p>
+
+        {/* Stats */}
+        <div className="grid grid-cols-3 gap-6 pt-8">
+          <div className="text-center">
+            <div className="text-2xl md:text-3xl font-bold text-orange-500">10,000x</div>
+            <div className="text-xs md:text-sm text-gray-300 mt-2">Faster Processing</div>
+          </div>
+          <div className="text-center">
+            <div className="text-2xl md:text-3xl font-bold text-orange-500">99.9%</div>
+            <div className="text-xs md:text-sm text-gray-300 mt-2">Uptime</div>
+          </div>
+          <div className="text-center">
+            <div className="text-2xl md:text-3xl font-bold text-orange-500">24/7</div>
+            <div className="text-xs md:text-sm text-gray-300 mt-2">Support</div>
+          </div>
+        </div>
       </div>
     </motion.div>
   );
