@@ -29,7 +29,7 @@ export default function GlassmorphicBox() {
         </p>
 
         {/* Stats */}
-        <div className="grid grid-cols-3 gap-6 pt-8">
+        <div className="flex justify-between items-center pt-8">
           <div className="text-center">
             <div className="text-2xl md:text-3xl font-bold text-orange-500">10,000x</div>
             <div className="text-xs md:text-sm text-gray-300 mt-2">Faster Processing</div>
