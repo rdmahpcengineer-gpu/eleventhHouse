@@ -62,26 +62,6 @@ export default function HeroContent() {
             </button>
           </motion.div>
 
-          {/* Stats or features */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 1 }}
-            className="grid grid-cols-3 gap-8 pt-12"
-          >
-            <div className="text-center lg:text-left">
-              <div className="text-3xl md:text-4xl font-bold text-orange-500">10,000x</div>
-              <div className="text-sm md:text-base text-gray-400 mt-2">Faster Processing</div>
-            </div>
-            <div className="text-center lg:text-left">
-              <div className="text-3xl md:text-4xl font-bold text-orange-500">99.9%</div>
-              <div className="text-sm md:text-base text-gray-400 mt-2">Uptime</div>
-            </div>
-            <div className="text-center lg:text-left">
-              <div className="text-3xl md:text-4xl font-bold text-orange-500">24/7</div>
-              <div className="text-sm md:text-base text-gray-400 mt-2">Support</div>
-            </div>
-          </motion.div>
         </div>
 
         {/* Glassmorphic box - Right side */}
