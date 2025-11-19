@@ -17,10 +17,6 @@ export default function InfiniteLogoScroll() {
   return (
     <div className="relative z-20 w-full py-6 overflow-hidden bg-black/40 backdrop-blur-lg border-t border-white/10">
       <div className="max-w-7xl mx-auto px-6">
-        <h3 className="text-center text-gray-400 text-xs md:text-sm font-medium uppercase tracking-wider mb-6">
-          Cloud Partners
-        </h3>
-
         {/* Scrolling container */}
         <div className="relative flex overflow-hidden select-none">
           {/* First set of logos */}
