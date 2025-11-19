@@ -15,12 +15,12 @@ export default function GlassmorphicBox() {
 
       {/* Content inside the glass box */}
       <div className="relative z-10 p-8 space-y-6">
-        <h3 className="text-3xl font-bold leading-tight">
+        <h3 className="text-xl font-bold leading-tight whitespace-nowrap">
           <span className="text-white">Intelligence.</span>
           {" "}
           <span className="text-orange-500">Precision.</span>
           {" "}
-          <span className="text-orange-500">Acceleration</span>
+          <span className="text-white">Acceleration</span>
         </h3>
         
         <p className="text-gray-200 text-base leading-relaxed">
