@@ -18,18 +18,6 @@ export default function Header() {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <Link
-              href="#vault"
-              className="text-gray-300 hover:text-orange-500 transition-colors font-medium"
-            >
-              Vault Coming Soon
-            </Link>
-            <Link
-              href="#login"
-              className="text-gray-300 hover:text-orange-500 transition-colors font-medium"
-            >
-              Login
-            </Link>
-            <Link
               href="#investor-relations"
               className="text-gray-300 hover:text-white transition-colors font-medium px-6 py-2 border-2 border-orange-500 rounded-full hover:bg-orange-500"
             >
@@ -72,20 +60,6 @@ export default function Header() {
         {isMenuOpen && (
           <div className="md:hidden mt-4 pb-4 border-t border-gray-800 pt-4">
             <div className="flex flex-col space-y-4">
-              <Link
-                href="#vault"
-                className="text-gray-300 hover:text-orange-500 transition-colors font-medium"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Vault Coming Soon
-              </Link>
-              <Link
-                href="#login"
-                className="text-gray-300 hover:text-orange-500 transition-colors font-medium"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Login
-              </Link>
               <Link
                 href="#investor-relations"
                 className="text-gray-300 hover:text-white transition-colors font-medium text-center px-6 py-2 border-2 border-orange-500 rounded-full hover:bg-orange-500"
