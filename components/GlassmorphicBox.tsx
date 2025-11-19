@@ -15,21 +15,18 @@ export default function GlassmorphicBox() {
 
       {/* Content inside the glass box */}
       <div className="relative z-10 p-8 space-y-6">
-        <h3 className="text-2xl font-bold text-white">Advanced Features</h3>
-        <ul className="space-y-4">
-          <li className="flex items-start gap-3">
-            <div className="flex-shrink-0 w-6 h-6 rounded-full bg-orange-500/80 mt-1" />
-            <span className="text-gray-200">Real-time Processing</span>
-          </li>
-          <li className="flex items-start gap-3">
-            <div className="flex-shrink-0 w-6 h-6 rounded-full bg-orange-500/80 mt-1" />
-            <span className="text-gray-200">AI-Powered Analytics</span>
-          </li>
-          <li className="flex items-start gap-3">
-            <div className="flex-shrink-0 w-6 h-6 rounded-full bg-orange-500/80 mt-1" />
-            <span className="text-gray-200">Scalable Infrastructure</span>
-          </li>
-        </ul>
+        <h3 className="text-3xl font-bold leading-tight">
+          <span className="text-white">Intelligence.</span>
+          {" "}
+          <span className="text-orange-500">Precision.</span>
+          {" "}
+          <span className="text-orange-500">Acceleration</span>
+        </h3>
+        
+        <p className="text-gray-200 text-base leading-relaxed">
+          AI cloud platform combining HPC performance, digital-twin modeling, autonomous voice AI, and telecom LLM routing—designed to give{" "}
+          <span className="text-orange-500 font-medium">you the advantage every business wants but few ever achieve.</span>
+        </p>
       </div>
     </motion.div>
   );
