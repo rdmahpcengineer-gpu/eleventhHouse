@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import GlassmorphicBox from "./GlassmorphicBox";
-import ScrollingTextRoll from "./ScrollingTextRoll";
+import AnimatedServicesList from "./AnimatedServicesList";
 
 export default function HeroContent() {
   return (
@@ -16,9 +16,37 @@ export default function HeroContent() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Main hero content - Left side */}
         <div className="text-center lg:text-left space-y-8">
-  
-          {/* Scrolling Text Roll */}
-          <ScrollingTextRoll />
+          {/* Main headline */}
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="text-5xl md:text-7xl lg:text-6xl font-bold text-white leading-tight"
+          >
+            Where Industries Meet{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">
+              Intelligence
+            </span>
+          </motion.h1>
+
+          {/* Description */}
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            className="text-base md:text-lg text-gray-400"
+          >
+            Turning Computational Power into Industrial Revolution
+          </motion.p>
+
+          {/* Animated Services List */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.6 }}
+          >
+            <AnimatedServicesList />
+          </motion.div>
 
           {/* CTA Button */}
           <motion.div
