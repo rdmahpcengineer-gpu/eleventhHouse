@@ -4,14 +4,13 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 const services = [
-  "Customer care",
-  "Telecommunications",
-  "Cloud managed",
-  "Cyber-Security",
-  "Anomaly detection",
-  "Digital twin",
-  "Cloud digital twin",
-  "Robotic automation",
+  "Ai Customer Service - Human Voice",
+  "Cybersecurity Platform - fingerprinting",
+  "Cloud Managed Services",
+  "Anomaly Detection",
+  "Digital Twin",
+  "Digital Twin Cloud Assets",
+  "Robotic Automation",
 ];
 
 export default function AnimatedServicesList() {
