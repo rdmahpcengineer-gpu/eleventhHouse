@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const services = [
   "Customer care",
-  "Telecoms",
+  "Telecommunications",
   "Cloud managed",
   "Cyber-Security",
   "Anomaly detection",
@@ -34,7 +34,7 @@ export default function AnimatedServicesList() {
         transition={{ duration: 0.5 }}
         className="text-xl md:text-2xl text-orange-500 font-semibold"
       >
-        {`${currentIndex + 1}. ${services[currentIndex]}`}
+        {`- ${services[currentIndex]}`}
       </motion.div>
     </div>
   );
