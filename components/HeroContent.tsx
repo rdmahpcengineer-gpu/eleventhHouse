@@ -52,7 +52,7 @@ export default function HeroContent() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.8 }}
+            transition={{ duration: 0.8, delay: 1.0 }}
             className="flex justify-center lg:justify-start"
           >
             <button className="group relative px-8 py-4 bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-bold text-lg rounded-full transition-all duration-300 shadow-xl hover:shadow-orange-500/50 hover:scale-105 min-w-[200px]">
